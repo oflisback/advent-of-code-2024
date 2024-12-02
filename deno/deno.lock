@@ -8,7 +8,9 @@
     "https://deno.land/std@0.208.0/collections/chunk.ts": "f82c52a82ad9338018570c42f6de0fb132fcb14914c31a444e360ac104d7b55b",
     "https://deno.land/std@0.208.0/collections/unzip.ts": "3d3469c616b04200ff6a883e0d6dc82cac4c205aa65742e375afb8816be75b35",
     "https://deno.land/std@0.224.0/collections/chunk.ts": "e6e533d6ae047f2082892831d463426f79cdd0d3f09ce298317a8469abf8467e",
-    "https://deno.land/std@0.224.0/collections/unzip.ts": "7dbe500a7b283a4ad6000316f98e0f590f084be103b3ea2e0519a7e3d98a38b2"
+    "https://deno.land/std@0.224.0/collections/min_of.ts": "a80b6881494f505fe42c160317225c99a69bf393419563063ac2dd258cffd9b2",
+    "https://deno.land/std@0.224.0/collections/unzip.ts": "7dbe500a7b283a4ad6000316f98e0f590f084be103b3ea2e0519a7e3d98a38b2",
+    "https://deno.land/std@0.224.0/collections/zip.ts": "5320938b447da8a8ed4811d6248829886c7ddd088e1653cfce6e59d0abb73692"
   },
   "workspace": {
     "dependencies": [
