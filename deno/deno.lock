@@ -1,5 +1,32 @@
 {
   "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.9",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "npm:nerdamer-prime@*": "1.2.2",
+    "npm:nerdamer-prime@^1.2.2": "1.2.2",
+    "npm:nerdamer@*": "1.1.13",
+    "npm:nerdamer@^1.1.13": "1.1.13"
+  },
+  "jsr": {
+    "@std/assert@1.0.9": {
+      "integrity": "a9f0c611a869cc791b26f523eec54c7e187aab7932c2c8e8bea0622d13680dcd",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "npm": {
+    "nerdamer-prime@1.2.2": {
+      "integrity": "sha512-RFI36kuT3qSWduL34vK8l1nQZb0vCmIsmgUy05gtR6LNvUt7+ctek6dDn/z6qgQOa8PeUb4sTC/FzK16vgEltA=="
+    },
+    "nerdamer@1.1.13": {
+      "integrity": "sha512-kQGQYd42eQpKDOnU8ZnRKF47c+gK6jVC46eUchrABsovtFruHvsjyjBO32jck8QnpZE5z5R8HQw72hQX9Oq2MQ=="
+    }
+  },
   "redirects": {
     "https://deno.land/std/collections/chunk.ts": "https://deno.land/std@0.224.0/collections/chunk.ts",
     "https://deno.land/std/collections/unzip.ts": "https://deno.land/std@0.224.0/collections/unzip.ts"
@@ -14,7 +41,9 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/assert@1"
+      "jsr:@std/assert@1",
+      "npm:nerdamer-prime@^1.2.2",
+      "npm:nerdamer@^1.1.13"
     ]
   }
 }
